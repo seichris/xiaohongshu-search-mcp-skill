@@ -1,6 +1,6 @@
 ---
-name: xiaohongshu-search-mcp
-description: Search XiaoHongShu / RED notes through the hosted whatson.red MCP endpoint when users need structured RED search results, note details, or a draft blog payload.
+name: xiaohongshu-search
+description: Search XiaoHongShu / RED / RedNote through the hosted whatson.red MCP endpoint when users need structured search results, note details, or a draft blog payload.
 version: 1.0.0
 metadata:
   openclaw:
@@ -15,7 +15,7 @@ metadata:
     homepage: https://www.whatson.red/agents
 ---
 
-# XiaoHongShu Search MCP
+# XiaoHongShu Search
 
 Use this skill when the user wants to search XiaoHongShu / RED / RedNote and receive structured JSON results through the hosted whatson.red MCP endpoint.
 

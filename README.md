@@ -1,11 +1,11 @@
-# XiaoHongShu Search MCP Skill
+# XiaoHongShu Search Skill
 
 Install this agent skill to search XiaoHongShu / RED / RedNote through the hosted whatson.red MCP endpoint and receive structured JSON results.
 
 ## Install
 
 ```bash
-npx skills add seichris/xiaohongshu-search-mcp-skill --skill xiaohongshu-search-mcp
+npx skills add seichris/xiaohongshu-search-mcp-skill --skill xiaohongshu-search
 ```
 
 ## Requirements
@@ -29,7 +29,7 @@ MCP requests use whatson.red account credits. x402 payment is available only thr
 The installable skill lives at:
 
 ```text
-skills/xiaohongshu-search-mcp/SKILL.md
+skills/xiaohongshu-search/SKILL.md
 ```
 
 This repository intentionally contains only the public skill package. It does not include Browserless configuration, cookies, proxies, backend code, or deployment secrets.
