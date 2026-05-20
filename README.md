@@ -1,6 +1,6 @@
 # XiaoHongShu Search Skill
 
-Install this agent skill to search XiaoHongShu / RED / RedNote through the hosted whatson.red MCP endpoint and receive structured JSON results.
+Install this agent skill to search XiaoHongShu / RED / RedNote through the hosted whatson.red MCP endpoint and receive structured JSON results. Users do not need a XiaoHongShu account or XiaoHongShu cookies.
 
 ## Install
 
@@ -21,6 +21,8 @@ The skill uses:
 - MCP endpoint: `https://www.whatson.red/api/agent/mcp`
 - MCP tool: `search_xiaohongshu_notes`
 - Auth header: `Authorization: Bearer ${WHATSON_RED_API_KEY}`
+
+No XiaoHongShu account, XiaoHongShu cookies, browser session, or scraping setup is required from the user.
 
 MCP requests use whatson.red account credits. x402 payment is available only through the REST API, not MCP.
 

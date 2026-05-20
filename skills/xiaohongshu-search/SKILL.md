@@ -1,6 +1,6 @@
 ---
 name: xiaohongshu-search
-description: Search XiaoHongShu / RED / RedNote through the hosted whatson.red MCP endpoint when users need structured search results, note details, or a draft blog payload.
+description: Search XiaoHongShu / RED / RedNote through the hosted whatson.red MCP endpoint when users need structured results, note details, or a draft blog payload without a XiaoHongShu account or cookies.
 version: 1.0.0
 metadata:
   openclaw:
@@ -17,7 +17,7 @@ metadata:
 
 # XiaoHongShu Search
 
-Use this skill when the user wants to search XiaoHongShu / RED / RedNote and receive structured JSON results through the hosted whatson.red MCP endpoint.
+Use this skill when the user wants to search XiaoHongShu / RED / RedNote and receive structured JSON results through the hosted whatson.red MCP endpoint. The user does not need a XiaoHongShu account or XiaoHongShu cookies.
 
 ## Requirements
 
@@ -25,6 +25,7 @@ Use this skill when the user wants to search XiaoHongShu / RED / RedNote and rec
 - Read the API key from `WHATSON_RED_API_KEY`.
 - Send the key as `Authorization: Bearer ${WHATSON_RED_API_KEY}`.
 - MCP requests use account-based whatson.red billing and credits.
+- No XiaoHongShu account, XiaoHongShu cookies, browser session, or scraping setup is required from the user.
 
 ## MCP Endpoint
 
@@ -76,6 +77,6 @@ REST supports API-key billing and accountless x402 payment. x402 is REST-only; d
 
 ## Safety Notes
 
-- Do not ask the user for Browserless, proxy, cookie, or deployment secrets; this skill only uses the hosted whatson.red MCP endpoint.
+- Do not ask the user for Browserless, proxy, XiaoHongShu cookies, or deployment secrets; this skill only uses the hosted whatson.red MCP endpoint.
 - Do not attempt to scrape XiaoHongShu directly from this skill.
 - Do not publish posts when `include_blog` is true; the returned blog payload is only a draft.
